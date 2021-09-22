@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="April Wu">
+
+        <!--Personal/Custom: CSS -->
+        <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--Bootstrap: Latest compiled JavaScript + Latest compiled and minified CSS --> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Font: Bebas Neue -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <!--Personal: Icon-->
+        <link rel="icon" href="assets/images/thumb.png">
+        <title>Truist</title>
+
+    </head>
+
+    <body>
+        <!--Navigation bar: responsive with bootstrap-->
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/smile.png" class="img-responsive" id="logo" alt="personal/website logo">
+            </a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="index.html">HOME</a> </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="about.html">ABOUT</a> </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="assets/Resume_April-Wu.pdf" target="_blank">RESUME</a> </h3>
+                    </li>
+                </ul>
+            </div>  
+        </nav>    
+        <!-- Container with detail info.  -->
+        <div class="container-fluid info">
+            <div class="row project-intro">
+                <div class="col-md-4">
+                    <h2 class="project-title"> Truist Financial Savings Portal </h2>
+                    <p class="proj-class"> User Experience Design Research Internship</p>
+                    <p class="proj-time"> Jun - Aug. 2021 </p>
+                    <img class="proj-logo" src="assets/images/truist.png">
+                </div>
+                <div class="col-md-4">
+                    <h4>Overview </h4>
+                    <ul>
+                        <li>Spearheaded the development of a values-based savings portal </li>
+                        <li>Innovated 5 features to analyze user activity and encourage clients to build personal savings fund </li>
+                        <li>Successfully applied for a design patent – expecting results in 2022 </li>
+                        <li>Conducted quantitative analyses to understand which features appeal to current and potential clients </li>
+                        <li>Assisted user testing through note-taking during interview, conducting qualitative analyses, and ideating interview prompts/questions </li>
+
+                    </ul>      
+                    <h4>Tools</h4>
+                    <p> Axure, Miro, Qualtrics XM, Excel </p>
+                    <h4> Strategies </h4>
+                    <p> User research and UI/UX design </p>
+                </div>
+                <div class="col-md-4">
+                    <h4> Contact </h4>
+                    <p>
+                        I apologize for not being able to share my exact designs due to confidentiality, but I am happy to answer any questions! <br><br>
+                        Feel free to contact me: aprilw@andrew.cmu.edu
+                    </p>
+                </div>
+             </div>
+             <!-- Project Nav -->
+             <div class="row project-intro">
+                <div class="col-md-3">
+                    <!-- spacer -->
+                </div>
+                <div class="col-md-6">
+                    <!-- spacer -->
+                </div>
+                <div class="col-md-3">
+                    <p> <a href="project-costco.html" class="next-project"> Next: Costco Responsive Web App </a> </p>
+                </div>
+             </div>
+        </div> 
+        <!-- Footer w/ contact info + music  -->
+        <footer>
+            <div class="footer-contact">
+                <div class="container">
+                <!-- Structure: 3 columns with music control, contact, and music credits (respectively) -->
+                    <div class="row">
+                        <!-- Background music with controls -->
+                        <div class="col-md-4">
+                            <audio controls autoplay loop id="page-audio">
+                                <source src="assets/music/TeaforTWO-TheWholeOther.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <!-- Contact Information: Email, LinkedIn (respectively)-->
+                        <div class="col-md-4">
+                            <a href="mailto:aprilw@andrew.cmu.edu" class="fa fa-envelope"></a>
+                            <a href="https://www.linkedin.com/in/wu-april/" class="fa fa-linkedin"></a>
+                        </div>
+                        <!-- Credit -->
+                        <div class="col-md-4" id="song">
+                            <p> BGM: Tea for TWO - The Whole Other </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

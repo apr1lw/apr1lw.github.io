@@ -1,0 +1,421 @@
+/* Animation - Make content transition onto page from bottom to top*/
+@keyframes bottom-top {
+    from{ bottom:-50px; opacity:0; } 
+    to{ bottom:0 ; opacity:1; }
+}
+@-webkit-keyframes bottom-top {
+    from { bottom:-50px; opacity:0 } 
+    to { bottom:0px; opacity:1 }
+}
+
+/* Navbar: background/styling */
+/*Customize the navbar background*/
+nav{    
+    background: none;
+    height: 30vh;
+}
+
+
+/* Personal logo: positioning and resizing */
+.navbar-brand img{
+    height: 10vh;
+    float: left;
+    margin-left: 2vw;
+    max-width: 100%;
+}
+
+/* Navbar: positiioning the navbar so they are not touching the border of the page */
+.navbar-nav.ml-auto{
+    margin-right: 3vw;
+}
+/* Navbar: removing the dot next to each page option */
+.navbar-nav.ml-auto li{
+    list-style: none;
+    margin-right: 2vw;
+}
+
+/* Navbar: styling each page option */
+.navbar-nav.ml-auto li a{
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    /* font-size: 1.5vw; */
+    text-decoration: none;
+    /* display: block; */
+}
+
+/* Navbar: styling on the current page's option */
+.navbar-nav.ml-auto .active a{
+    color: #000;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: underline;
+    background: none;
+}
+
+/* Navbar: styling on the light background */
+.navbar-nav.ml-auto li a{
+    color: #2d2d2d;
+    font-family: 'Bebas Neue', cursive;
+    text-decoration: none;
+    display: block;
+}
+
+/* Navbar: styling on each page's option when hovered*/
+.navbar-nav.ml-auto li a:hover{
+    color: #818D81;
+    font-family: 'Bebas Neue', cursive;
+    font-style: italic;
+    text-decoration: none;
+}
+
+/* Navbar: positioning the drop down */
+.collapse.navbar-collapse{
+    float: right;
+    position: relative;
+}
+
+/* Navbar: shifting the drop down menu pages to the right*/
+.nav-item{
+    text-align: right;
+}
+
+/* All pages: positioning the footer*/
+footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* All pages: styling the footer*/
+.footer-contact{
+    text-align: center;
+    background-color:#fff;
+}
+
+/* All pages: positioning the music control in the footer*/
+.footer-contact audio{
+    float: left;
+    padding: 2vh;
+}
+
+/* All pages: Styling the icons in the footer*/
+.footer-contact a{
+    color: #000;
+    margin: 1vh;
+    font-size: 3vh;  
+}
+
+/* All pages: Styling the icons in the footer when hovered over*/
+.footer-contact a:hover{
+    color: #E3BE43;
+    opacity: 0.7;
+    margin: 1vh;
+    font-size: 3vh;
+    text-decoration: none;  
+}
+
+/* All pages: Styling + positioning song credits*/
+#song{
+    margin-top: 1.5vh;
+    font-family: 'Bebas Neue', cursive; 
+    font-size: 1.5vh;
+    text-align: center;
+    color: #000;
+}
+
+/* All pages: Clothing Background: adding and styling the actual gif + animation for content*/
+.container-fluid.info{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.3vw;
+    position: relative;
+    animation-name: bottom-top;
+    animation-duration: 3s;
+    -webkit-animation-name: bottom-top;
+    -webkit-animation-duration: 3s;
+    min-height: 800px;
+}
+
+/* All pages: The sub-title of pages with dark backgrounds*/
+.intro-light{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vh;
+    text-align: center;
+    color: #000;
+}
+
+/* All pages: The sub-title of pages with light backgrounds*/
+.intro{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vh;
+    text-align: center;
+    background-color: #e6e6e6c5;
+    color: #2D2D2D;
+}
+
+/* All pages: Title of pages with dark backgrounds*/
+.pageTitle-light{
+    text-align: center;
+    font-size: 5vw;
+    font-family: 'Bebas Neue', cursive;
+    color: #000;
+}
+
+/* Home page: Positioning the container for the different project titles*/
+.titles{
+    display: flex;
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
+
+/* Home page: Positioning each project title*/
+.titles li{
+    list-style: none;
+    width: 33%;
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+
+}
+
+/* Home page: Styling each project title before it's hovered*/
+.titles li a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2vh;
+    text-align: center;
+    text-decoration: underline;
+    color: #2D2D2D;
+}
+
+/* Home page: Styling each project title while it's hovered*/
+.titles li a:hover{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    font-size: 2vh;
+    text-align: center;
+    font-style: italic;
+    text-decoration: line-through;
+    
+}
+
+/* Home page: Default styling of the project images */
+#project-img img{
+    border-radius: 0.5%;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Animation for the glow around image when it's hovered */
+    transition: box-shadow 500ms ease-in-out;
+}
+
+/* Home page: Changing the project images' opacities when they are hovered */
+#project-img img:hover{
+    padding: 2vh;
+    opacity: 0.6;
+    border: 0.2px solid rgb(197, 200, 255);
+    border-radius: 1vw;
+    /* Animation for the glow around image when it's hovered */
+    box-shadow: 0px 30px 30px rgb(0, 60, 255);
+}
+
+/* Home page: Display's the project title above its respective image */
+.home-title p{
+    display: block;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    font-size: 2vh;
+    text-align: left;
+    color: #000;
+    padding: 0.3vw;
+    width: auto;
+} 
+  
+  
+/* Home page: Positioning + styling the links that appear when their respective images are shown */
+#project-img a{
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+}
+
+/* About Page: Styling the photo that is shown */
+#bio-pic{
+    border-radius: 5%;
+    opacity: 0.9;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* About Page: Styling the text next to and below the bio image */
+.bio-text{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    font-size: 2vh;
+    color: #000;
+    padding-right: 20vw;
+}
+
+/* About Page: Styling the rotating slideshow */
+/* Credit: https://www.youtube.com/watch?v=tnTHCntgHkM */
+.slideshow{
+    margin: 0 auto;
+    padding-top: 50px;
+    height: 500px;
+    box-sizing: border-box;
+}
+
+/* Widen the rectangle of content to give the transparent tab illusion with the see-through half*/
+.slideshow-content{
+    margin: auto;
+    width: 180px;
+    perspective: 1000px;
+    position: relative;
+    padding-top: 80px;
+}
+
+.slideshow-carousel{
+    width: 100%;
+    position: absolute;
+    float: right;
+    animation: rotar 15s infinite linear;
+    transform-style: preserve-3d;
+}
+
+.slideshow-carousel:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.slideshow-carousel figure{
+    width: 100%;
+    height: 12vh;
+    border: 0.1vw solid #272869;
+    border-radius: 0.3vw;
+    overflow: hidden;
+    position: absolute;
+}
+.slideshow-carousel figure:nth-child(1){
+    transform: rotateY(0deg) translateZ(300px);
+}
+.slideshow-carousel figure:nth-child(2){
+    transform: rotateY(60deg) translateZ(300px);
+}
+.slideshow-carousel figure:nth-child(3){
+    transform: rotateY(120deg) translateZ(300px);
+}
+.slideshow-carousel figure:nth-child(4){
+    transform: rotateY(180deg) translateZ(300px);
+}
+.slideshow-carousel figure:nth-child(5){
+    transform: rotateY(240deg) translateZ(300px);
+}
+.slideshow-carousel figure:nth-child(6){
+    transform: rotateY(300deg) translateZ(300px);
+}
+
+.slideshow-carousel img{
+    image-rendering: auto;
+    transition: all 150ms;
+    height: 100%;
+}
+
+.slideshow-carousel img:hover{
+    transition: all 150ms;
+}
+
+.slideshow-img:hover{
+    box-shadow: 0px 0px 20px 0px rgb(0, 60, 255);
+}
+
+.slideshow-img{
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #f2ffc1;
+    border-radius: 0.2vh;
+    padding: 0.2vw;
+}
+
+@keyframes rotar{
+    from{
+        transform: rotateY(0deg);
+    }
+    to{
+        transform: rotateY(360deg);
+    }
+}
+
+/* Project pages: Project title and project intro paragraph text styling + positioning*/
+.project-title{
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    color: #000;
+} 
+
+.project-intro p{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    text-align: left;
+    color: #000;
+}
+
+/* Project pages: Styling the project's class & time texts*/
+.proj-class, .proj-time{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    text-align: left;
+    color: #000;
+    font-weight: 100;
+}
+
+/* Project pages: Positioning the overall intro. section of the page*/
+.project-intro{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5vw;
+}
+
+/* Project pages: Styling the h4 headers used in the project intro text and project process texts */
+.project-intro h4, .project-process h4{
+    font-family: 'Bebas Neue', cursive;
+    text-align: left;
+    color: #000;
+    font-weight: bold;
+}
+
+/* Project pages: Styling the h5 headers used in the project process texts */
+.project-process h5{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    text-align: left;
+    color: #000;
+    text-decoration: underline;
+    font-weight: bold;
+    padding-top: 1vh;
+}
+
+/* Project pages: Styling the h6 headers used in the project process texts */
+.project-process h6{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    text-align: left;
+    color: #000;
+    font-style: italic;
+    padding-top: 1vh;
+}
+
+/* Project pages: Styling the project process general texts in paragraphs and lists */
+.project-process p, li{
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;   
+    text-align: left;
+    color: #000;
+    padding-top: 1vh;
+}
+
+/* Project pages: Styling the project-process containers */
+.row.project-process{
+    padding-bottom: 10px;
+    padding: 3vw;
+}
+
+.proj-logo{
+    height: 20vh;
+}
+
+.next-project{
+    font-family: 'Bebas Neue', cursive;
+    color: #1c1fad;
+    text-decoration: none;
+    font-size: 3vh;
+}

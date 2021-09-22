@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="April Wu">
+
+        <!--Personal/Custom: CSS -->
+        <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--Bootstrap: Latest compiled JavaScript + Latest compiled and minified CSS --> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Font: Bebas Neue -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <!--Personal: Icon-->
+        <link rel="icon" href="assets/images/thumb.png">
+        <title>Scan and Go</title>
+
+    </head>
+
+    <body>
+        <!--Navigation bar: responsive with bootstrap-->
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/smile.png" class="img-responsive" id="logo" alt="personal/website logo">
+            </a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="index.html">HOME</a> </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="about.html">ABOUT</a> </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="assets/Resume_April-Wu.pdf" target="_blank">RESUME</a> </h3>
+                    </li>
+                </ul>
+            </div>  
+        </nav>    
+        <!-- Container with detail info.  -->
+        <div class="container-fluid info">
+            <div class="row project-intro">
+                <div class="col-md-4">
+                    <h2 class="project-title"> Costco Responsive Web App </h2>
+                    <p class="proj-class"> Interaction Design Studio I </p>
+                    <p class="proj-time"> Nov - Dec. 2020 </p>
+                    <img class="proj-logo" src="assets/images/costco.png">
+                </div>
+                <div class="col-md-4">
+                    <h4>Team </h4>
+                    <p> Monica Chang, Emily Feng, April Wu & Ginny Zhao </p>
+                    <h4>Focus </h4>
+                    <p> Discover the interactional challenges that arise when creating responsive platforms 
+                        and strategize how technology can use design to overcome these obstacles.
+                    </p>                    
+                    <h4>Tools</h4>
+                    <p> Figma, Jamboard </p>
+                    <h4> Strategies </h4>
+                    <p> User research and UI/UX design </p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4> Overview </h4>
+                    <p>
+                        Grocery shopping is no longer the mundane chore; it’s a reason to leave the house 
+                        and feel "normal". However, given the widespread of the COVID-19, people shop taking extreme safety 
+                        precautions while carrying doubt in other shoppers’ ability to do the same. <br><br>
+                        This doubt coupled with invisible rules, such as checking out quickly to prevent the hold up of lines,
+                        causes anxiety in shoppers. A key subset of the individuals described are Costco 
+                        visitors, who are often concerned by the wholesale market’s large number of visitors.
+                    </p>
+                </div>
+            </div>
+            <!-- Research Process-->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Research</h4>
+                </div> 
+                <div class="col-md-8">
+                    <h5> Pop-up Research: </h5>
+                    <p>
+                        As a team, we used the pop-up research method to better understand the issues 
+                        pertaining to grocery shopping during the current pandemic. We compiled a set 
+                        of questions to ask our interviewees, but these questions mainly served as guides 
+                        for them to tell their journey rather than the standard question-and-answer interview. 
+                    </p>
+                    <h5> Questions: </h5>
+                    <ol>
+                        <li>
+                            Can you walk me through the last time you purchased groceries? Why did you go?
+                        </li>
+                        <li>
+                            What did you (not) enjoy about your experience?                                
+                        </li>
+                        <li>
+                            Have you ever shopped online/in-person? Can you walk me through that experience?                              
+                        </li>
+                        <li>
+                            Tell me about a time when your shopping trip was extremely successful? Why?
+                        </li>
+                        <li>
+                            Tell me about a time when your shopping trip was not successful? What could have made your experience better?
+                        </li>
+                    </ol>
+
+                </div>    
+                <div class="col-md-2">
+                </div>
+            </div>
+            <!-- Affinity Diagram + Journey Map-->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Affinity Diagram and Journey Map</h4>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/costco/affinity.png" class="img-fluid" alt="affinity diagram of the data collected"> 
+                    <p> 
+                        From the interviews, we collected a number of insightful answers and consolidated them through an affinity diagram to extract the
+                        main points and concerns.
+                    </p>
+                </div>    
+                <div class="col-md-5">
+                    <img src="assets/images/costco/currentJourneyMap.png" class="img-fluid" alt="journey map of a customer's grocery shopping experience"> 
+                    <p> 
+                        Additionally, the interview provided details about the interviewees' general shopping structure, which allowed us to
+                        understand the structure of an average Costco shopper. 
+                    </p>
+                </div>
+            </div>
+            <!-- Consolidated Insights -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Consolidated Insights </h4>
+                </div>
+                <div class="col-md-6">
+                    <ul>
+                        <p>During the pandemic, people... </p>
+                        <li>
+                            are generally not comfortable about leaving the house, but in-person
+                            grocery shopping gives them a sense of normality 
+                        </li>
+                        <li>
+                            make decisions based on how to minimize the contact they have with others 
+                        </li>
+                        <li>
+                            feel a heightened social pressure when checking out, afraid that they will hold up lines 
+                        </li>
+                        <li>
+                            have a better experience when they know what to expect during the check out process
+                        </li>
+                    </ul>    
+                </div>
+                <div class="col-md-3">
+                    <img src="assets/images/costco/proposal.png" class="img-fluid" alt="the section of the customer journey we want to target"> 
+                </div>
+            </div>
+            <!-- Design Proposal -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Design Proposal</h4>
+                </div> 
+                <div class="col-md-5">
+                    <p>
+                        We ideated a web app that allows customers to first scan their items, showing the 
+                        item's price and the updated total, before putting them into their cart. It will also
+                        allow customers to edit/remove items in their cart and app accordingly. <br><br>
+                        This design can alleviate the social pressure during the checkout process as the shoppers
+                        can see the details about and make necessary adjustments to their carts before they reach the cash register. <br><br>
+                        To make this program inclusive and accessible for the middle-aged and elderly shoppers, we designed 
+                        this web app to be responsive and adaptable on tablets, a larger screen, as well.
+                    </p>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/images/costco/journeyMap.png" class="img-fluid" alt="journey map of a customer's grocery shopping experience"> 
+                </div>    
+            </div>
+            <!-- User Journey with Solution -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> User Journey </h4>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/costco/userjourney-before.png" class="img-fluid" alt="customer journey before web app">                     
+                </div>    
+                <div class="col-md-5">
+                    <img src="assets/images/costco/userjourney-after.png" class="img-fluid" alt="customer journey after web app"> 
+                </div> 
+            </div>
+            <!-- Personas -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Personas </h4>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/costco/persona1.png" class="img-fluid" alt="stay-at-home mom persona"> 
+                </div>    
+                <div class="col-md-5">
+                    <img src="assets/images/costco/persona2.png" class="img-fluid" alt="young professional mom"> 
+                </div> 
+            </div>
+            <!-- "Paper" prototype -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> "Paper" Prototyping </h4>
+                </div> 
+                <div class="col-md-8">
+                    <img src="assets/images/costco/paper.png" class="img-fluid" alt="the 'paper' prototype we made of our web app"> 
+                    <br>
+                    <br>
+                    <h6> Created "paper" prototypes to visualize our proposed design and app flow </h6>
+                    <ul>
+                        <li>
+                            Users can see the items that are currently in their cart 
+                        </li>
+                        <li>
+                            Users can swipe down to access the scanning feature, which will add products into their shopping carts upon scanning the 
+                            item's barcode
+                        </li>
+                        <li>
+                            Users can select their preferred payment method: pay with card and simply verify their payment at the exit or pay at the register 
+                            with cash (which is followed by a secondary verification before exiting)
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+            <!-- Think aloud Process -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Think aloud Testing</h4>
+                </div> 
+                <div class="col-md-8">
+                    <h6> Takeaways from the think-aloud testing:</h6>
+                    <ul>
+                        <li>
+                            Check-out page was confusing: the two methods of payment both had the ‘confirm payment’ option with similar
+                            resulting pages, but the pages actually have different intentions for the user
+                        </li>
+                        <li>
+                            Physical inconvenice: the physical weight of tablets can cause tablet users to struggle with scanning barcodes 
+                        </li>
+                    </ul>
+                </div> 
+            </div>
+            <!--Post-crit changes -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Post-crit Changes </h4>
+                </div> 
+                <div class="col-md-4">
+                    <p>Old version:</p>
+                    <img src="assets/images/costco/oldpaper.png" class="img-fluid" alt="the previous 'paper' prototype we made of our web app"> 
+                </div>
+                <div class="col-md-4">
+                    <p>New version:</p>
+                    <img src="assets/images/costco/newpaper.png" class="img-fluid" alt="the updated 'paper' prototype we made of our web app"> 
+                </div>    
+            </div>
+            <div class="row project-process">
+                <div class="col-md-2">
+                </div> 
+                <div class="col-md-8">
+                    <h6> Changes:</h6>
+                    <ul>
+                        <li>
+                            Check-out page was confusing: the two methods of payment both had the ‘confirm payment’ option with similar
+                            resulting pages, but the pages actually had different intentions for the user
+                        </li>
+                        <li>
+                            Physical inconvenice: the physical weight of tablets can cause tablet users to struggle with scanning barcodes 
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                </div>    
+            </div>
+            <!-- Mid-fi Prototype: scan product -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Mid-fi Prototype: scan product </h4>
+                </div> 
+                <div class="col-md-5">
+                    <p> Tablet Version: </p>
+                    <img src="assets/images/costco/midfi.png" class="img-fluid" alt="the mid-fi mockup of scanning product interface tablet version"> 
+                </div> 
+                <div class="col-md-3">
+                    <p> Mobile Version: </p>
+                    <img src="assets/images/costco/midfi2.png" class="img-fluid" alt="the mid-fi mockup of scanning product interface mobile version"> 
+                </div>   
+            </div>
+            <!-- Mid-fi Prototype: checkout interfaces -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Mid-fi Prototype: checkout </h4>
+                </div> 
+                <div class="col-md-5">
+                    <p> Tablet Version: </p>
+                    <img src="assets/images/costco/midfi-t-check.png" class="img-fluid" alt="the mid-fi mockup of checkout interface tablet version"> 
+                </div> 
+                <div class="col-md-5">
+                    <p> Mobile Version: </p>
+                    <img src="assets/images/costco/midfi-p-check.png" class="img-fluid" alt="the mid-fi mockup of checkout interface mobile version"> 
+                </div>   
+            </div>
+            <!-- Mid-fi Prototype: comments -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                </div>
+                <div class="col-md-8">
+                    <h6> Comments: </h6>
+                    <ul>
+                        <li>
+                            The split-screen view allows the user to add items on the left and 
+                            see the items in their cart on the right
+                        </li>
+                        <li>
+                            With the larger real estate of tablets, the split-screen 
+                            structure would be convenient for the users and allow them shop more consciously 
+                            (i.e. visually show when they are approaching or exceeding their budget)
+                        </li>
+                        <li>
+                            The design pattern also mimics the self-checkout machines that currently exist. 
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--Post-crit changes for mid-fi -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Post-crit Changes </h4>
+                </div> 
+                <div class="col-md-6">
+                    <img src="assets/images/costco/newmidfi.png" class="img-fluid" alt="the updated prototype we made of our web app"> 
+                </div>
+                <div class="col-md-4">
+                    <h6>Changes:</h6>
+                    <ul>
+                        <li>Swipe left/right to switch payment methods</li>
+                        <li>Minimize confusion with a title above barcode ("ALL ITEMS IN CART") to clarify its purpose</li>
+                        <li>Selecting the corresponding buttons to change payment methods</li>
+                    </ul>
+                </div>    
+            </div>
+            <!-- High-fi Prototype -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> High-fi Prototype </h4>
+                </div> 
+                <div class="col-md-5">
+                    <p> Tablet Version: </p>
+                    <img src="assets/images/costco/hi-fi-t.png" class="img-fluid" alt="the previous 'paper' prototype we made of our web app"> 
+                    <h6>Comments:</h6>
+                    <ul>
+                        <li>
+                            We found that Costco carries a ton of variations for similar items, so having a fully 
+                            collapsible cart would be a better utilization of the full tablet screen. 
+                        </li>
+                        <li>
+                            For users who enjoy browsing and getting a preview of the available options, this design 
+                            offers them a quick and easy solution to view a larger selection. 
+                        </li>
+                    </ul>
+                </div> 
+                <div class="col-md-5">
+                    <p> Mobile Version: </p>
+                    <img src="assets/images/costco/hi-fi.png" class="img-fluid" alt="the updated 'paper' prototype we made of our web app"> 
+                    <h6>Comments:</h6>
+                    <ul>
+                        <li>
+                            This current design confused the user as he thought swiping through would change to another 
+                            card instead of changing payment method. 
+                        </li>
+                        <li>
+                            We decided to converge our phone design to our tablet version where we have two icons 
+                            indicating what option to choose. 
+                        </li>
+                        <li>
+                            To make the flow more complete, we also decided to present customers to view their entire 
+                            receipt before paying as we believe that this is a way of mitigating error prevention.    
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+            <!-- Final Prototype: GIF of tablet version-->
+            <div class="row project-process">
+                <div class="col-md-3">
+                    <h4> Responsive Web App (Final)</h4>
+                    <p> <a href="https://drive.google.com/drive/folders/1359ZwV5QYtNiyeYgXffU3YDSoGQUiSo1?usp=sharing"> View Frames </a></p>
+                </div> 
+                <div class="col-md-7">
+                    <p> Tablet Version: </p>
+                    <img src="assets/images/costco/t-final.gif" class="img-fluid" alt="the final responsive web app interface on tablet"> <br><br>
+                </div>    
+                <div class="col-md-2">
+                    <!-- Spacer -->
+                </div>
+            </div>
+            <!-- Final Prototype: GIF of mobile version -->
+            <div class="row project-process">
+                <div class="col-md-3">
+                    <!-- Spacer -->
+                </div> 
+                <div class="col-md-4">
+                    <p> Mobile Version: </p>
+                    <img src="assets/images/costco/p-final.gif" class="img-fluid" alt="the final responsive web app interface on mobile"> <br><br>                 
+                </div>    
+                <div class="col-md-5">
+                    <!-- Spacer -->
+                </div>
+            </div>           
+            
+            <!-- Final Charts -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Stakeholder values & User Flow </h4>
+                </div> 
+                <div class="col-md-5">
+                    <p> Stakeholder Value: </p>
+                    <img src="assets/images/costco/stakeholder.png" class="img-fluid" alt="diagram of each stakeholders' value highlights from the platform"> <br><br>
+                </div>    
+                <div class="col-md-5">
+                    <p> Final User Flow: </p>
+                    <img src="assets/images/costco/userflow.png" class="img-fluid" alt="diagram of the final user flow within the platform"> <br><br>
+                </div>
+            </div>
+            <!-- Next Steps -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Next Steps </h4>
+                </div> 
+                <div class="col-md-8">
+                    <p> 
+                        If this project were to be continued, we would definitely plan for more user testings with actual Costco customers and recruit
+                        different ages of users. Additionally, we would aim to make the tested prototypes more interactive to better understand how 
+                        clear and effective our designs are.<br><br>
+
+                        To supplement the feedback and results from the user testings, we would also like to launch surveys to see what current customers 
+                        envision to be their ideal shopping experiences and understand how our solution can help enhance their customer journey at Costco. 
+                    </p>
+                </div>    
+                <div class="col-md-2">
+                    <!-- spacer -->
+                </div>
+            </div>
+            <!-- Project Nav -->
+            <div class="row project-process">
+                <div class="col-md-3">
+                    <p> <a href="project-truist.html" class="next-project"> Prev: Truist Financial </a> </p>
+                </div>
+                <div class="col-md-6">
+                    <!-- spacer -->
+                </div>
+                <div class="col-md-3">
+                    <p> <a href="project-adidas.html" class="next-project"> Next: Adidas Fashion Dashboard </a> </p>
+                </div>
+            </div>
+        </div>
+        <!-- Footer w/ contact info + music  -->
+        <footer>
+            <div class="footer-contact">
+                <div class="container">
+                <!-- Structure: 3 columns with music control, contact, and music credits (respectively) -->
+                    <div class="row">
+                        <!-- Background music with controls -->
+                        <div class="col-md-4">
+                            <audio controls autoplay loop id="page-audio">
+                                <source src="assets/music/ClearAir-SomewhereSunny-KevinMacLeod.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <!-- Contact Information: Email, LinkedIn (respectively)-->
+                        <div class="col-md-4">
+                            <a href="mailto:aprilw@andrew.cmu.edu" class="fa fa-envelope"></a>
+                            <a href="https://www.linkedin.com/in/wu-april/" class="fa fa-linkedin"></a>
+                        </div>
+                        <!-- Credit -->
+                        <div class="col-md-4" id="song">
+                            <p> BGM: Clear Air - SomewhereSunny - Kevin MacLeod </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>

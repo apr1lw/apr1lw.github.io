@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="April Wu">
+
+        <!--Personal/Custom: CSS -->
+        <link rel="stylesheet" href="assets/css/stylesheet.css">
+
+        <!-- Animate.css -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--Bootstrap: Latest compiled JavaScript + Latest compiled and minified CSS --> 
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+        <!-- Icons -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Font: Bebas Neue -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+        <!--Personal: Icon-->
+        <link rel="icon" href="assets/images/thumb.png">
+        <title>Fashion Dashboard</title>
+
+    </head>
+
+    <body>
+        <!--Navigation bar: responsive with bootstrap-->
+        <nav class="navbar navbar-expand-md">
+            <a class="navbar-brand" href="index.html">
+                <img src="assets/images/smile.png" class="img-responsive" id="logo" alt="personal/website logo">
+            </a>
+            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="index.html">HOME</a> </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="about.html">ABOUT</a> </h3>
+                    </li>
+                    <li class="nav-item">
+                        <h3> <a class="nav-link" href="assets/Resume_April-Wu.pdf" target="_blank">RESUME</a> </h3>
+                    </li>
+                </ul>
+            </div>  
+        </nav>    
+        <!-- Container with detail info.  -->
+        <div class="container-fluid info">
+            <!-- Background Info. -->
+            <div class="row project-intro">
+                <div class="col-md-4">
+                    <h2 class="project-title"> Adidas Fashion Dashboard </h2>
+                    <p class="proj-class"> Interaction Design Studio I </p>
+                    <p class="proj-time"> Oct - Nov. 2020 </p>
+                    <img class="proj-logo" src="assets/images/adidas.png">
+                </div>
+                <div class="col-md-4">
+                    <h4>Team </h4>
+                    <p> Mansi Agarwal, Lea Emerlyn, Yunmin Oh & April Wu </p>
+                    <h4>Focus </h4>
+                    <p> 
+                        Understand how to collect and identify useful information for the target audience; effectively 
+                        design visuals to translate and communicate the key pieces of information for viewers.
+                    </p>                    
+                    <h4>Tools</h4>
+                    <p> Figma, Procreate, Photoshop, Jamboard </p>
+                    <h4> Strategies </h4>
+                    <p> User research, qualitative analysis, data visualization, and UI design </p>
+
+                </div>
+                <div class="col-md-4">
+                    <h4> Overview </h4>
+                    <p>
+                        With the growing amount of data being collected and used within today's businesses, it can be challenging and time-consuming 
+                        for teams to differentiate and classify information as resources and noise. <br><br> Within this project, we aim to better this process
+                        through data visualization: we organized and combined the most relevant data and displayed their information on a fashion dashboard 
+                        that can allow its viewers (e.g. designers, directors) to assess their current directions and make any necessary adjustments accordingly.
+                    
+                    </p>
+                </div>
+            </div>
+
+            <!-- Personas-->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Personas </h4>
+                </div> 
+                <div class="col-md-8">
+                    <!-- spacer -->
+                </div>    
+                <div class="col-md-2">
+                    <!-- spacer -->
+                </div>
+            </div>
+            <div class="row project-process">
+                <div class="col-md-4">
+                    <img src="assets/images/adidas/ansela-persona.png" class="img-fluid" alt="persona details of Ansela: the VP of Fashion Sneakers">
+                    <br><br>
+                </div> 
+                <div class="col-md-4">
+                    <img src="assets/images/adidas/kenny-persona.png" class="img-fluid" alt="persona details of Kenny: the Director of Fashion Sneakers">
+                    <br><br>
+                </div>    
+                <div class="col-md-4">
+                    <img src="assets/images/adidas/søs-persona.png" class="img-fluid" alt="persona details of Søs: designer with a background in fashion and textiles">
+                    <br><br>
+                </div>
+            </div>
+            <!-- Research + Affinity Diagram -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Research </h4>
+                </div> 
+                <div class="col-md-6">
+                    <p> Affinity Diagram: </p>
+                    <img src="assets/images/adidas/affinity.png" class="img-fluid" alt="affinity diagram of the data collected"> 
+                </div>    
+                <div class="col-md-4">
+                    <p> We conducted a qualitative analysis on sneaker reviews from Amazon customers: <br><br>
+                    </p>
+                    <ul>
+                        <li>
+                            focused on sales data: why did the shoes sell, what were the complaints, why were they returned/exchanged?
+                        </li>
+                        <li>
+                            identified reviews can be largely classified into (1) feedback on the physical shoes (positive/negative 
+                            comments and supplier issues) and (2) emotional components (purchase motives and value for money).
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- User Flow: pre-dashboard -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> User Flow <br> (pre-dashboard)</h4>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/adidas/pre-UF.png" class= "img-fluid" alt="user flow of current design and production process">
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        From the current model, it is shown that the design and production process is sequential and linear where the main 
+                        point of critique/feedback is from customer reviews. Our goal is to make this process more iterative and add more opportunities to 
+                        collect and implement updated data, giving more opportunities to improve upon each design. 
+                    </p>
+                </div>
+            </div>
+            <!-- User Flow: post-dashboard -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> User Flow <br> (post-dashboard) </h4>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/adidas/post-UF.png" class= "img-fluid" alt="user flow of post-dashboard design and production process">
+                </div>
+                <div class="col-md-4">
+                    <p> 
+                        We brainstormed a future state, where the design and production process can be more iterative and account for
+                        societal factors (e.g. demographics, trends, culture) ––  an area that can provide insightful data and influence both business
+                        decisions and user experiences.
+                    </p>
+                </div>
+            </div>
+            <!-- Paper Prototypes -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Paper Prototypes </h4>
+                </div> 
+                <div class="col-md-6">
+                    <img src="assets/images/adidas/handdrawn.png" class="img-fluid" alt="image of the hand drawn sketches/paper prototypes"> 
+
+                </div>
+                <div class="col-md-4">
+                    <p>
+                        Given that the dashboard is targeted to designers and marketers, we focused on the global aspect of data: provide 
+                        insight into local culture to inspire effective designs and marketing strategies. <br><br>
+
+                        We found ourselves thinking in the same direction, thinking of widgets such as map/ globe to explore different 
+                        fashion hubs, a social media widget to identify trends, and sales summaries that indicate fashion sneakers's 
+                        relationship with the current trends. The red circles represent elements we picked to put in our dashboard.
+                    </p>
+                </div>    
+            </div>
+            <!-- Low-Fi -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Low Fidelity Designs </h4>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/adidas/lowfi-weekday.png" class="img-fluid" alt="low-fi dashboard design of Monday - Thursday display"> 
+                    <br><br>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/adidas/lowfi-fri.png" class="img-fluid" alt="low-fi dashboard design of Friday display">  
+                </div> 
+            </div>
+            <!-- Low-Fi continued -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <!-- Spacer -->
+                </div> 
+                <div class="col-md-10">
+                    <ul>
+                        <li>
+                            Monday - Thursday dashboard: display includes widgets that provide  motivation and inspiration to designers. We kept the globe and added 
+                            widgets for social media, current trends and sustainability based on the location picked on the globe.    
+                        </li>
+                        <li>
+                            Friday dashboard: display includes widgets that provide sales and marketing impact feedback to marketers. We placed the shoe 
+                            model with customer reviews in the middle and sales achievement, current campaign, and data including total sales
+                            and revenues widgets on the side. These screens could be switched to by pressing buttons in the bottom on the screen.
+                        </li>
+                    </ul>
+
+                </div> 
+            </div>
+
+            <!--Mid-fi Design -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Mid-fidelity Design </h4>
+                </div> 
+                <div class="col-md-5">
+                    <p>Old version:</p>
+                    <img src="assets/images/adidas/mid-fi.png" class="img-fluid" alt="the previous 'paper' prototype we made of our web app"> 
+                    <h6> Concerns with old design:</h6>
+                    <ul>
+                        <li>
+                            Presenting information the intended users might already have 
+                        </li>
+                        <li>
+                            We were informing rather than influencing
+                        </li>
+                        <li>
+                            Needed reroute and present that data in a way that would lead to data-driven design and marketing decisions.
+                        </li>      
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <p>New version:</p>
+                    <img src="assets/images/adidas/mid-fi2.png" class="img-fluid" alt="the updated 'paper' prototype we made of our web app"> 
+                    <h6> Changes:</h6>
+                    <ul>
+                        <li>
+                            Used widgets to show both statistics and images of the current trends to inspire new ideas in designers and marketers                         
+                        </li>
+                        <li>
+                            Focused our motion on updating the data as a reflection of the outside world: information displayed in widgets updated with change in location 
+                        </li>      
+                    </ul>
+                </div>    
+            </div>
+            <div class="row project-process">
+                <div class="col-md-5">
+                    <h4> High Fidelity Design and Features</h4>
+                </div> 
+                <div class="col-md-5">
+                    <!-- Spacer -->
+                </div>
+                <div class="col-md-2">
+                    <!-- Spacer -->
+                </div>    
+            </div>
+            <!-- Dashboard Element: Globe -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Globe </h4>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/adidas/ny-globe.png" class="img-fluid" alt="the mid-fi mockup of scanning product interface tablet version"> 
+                    <h6> Comments: </h6>
+                    <ul>
+                        <li>
+                            For motion, we implemented a globe that is in spinning motion by default and invites users to select a destination on the globe. 
+                        </li>
+                        <li>
+                            However, we noticed that this design can cause “traffic”: individuals can block the board while interacting with the globe, 
+                            which can also affect others who are trying to view the dashboard.
+                        </li>
+                    </ul>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/adidas/tky-globe.png" class="img-fluid" alt="the mid-fi mockup of scanning product interface mobile version"> 
+                    <h6> Changes: </h6>
+                    <ul>
+                        <li>
+                            We chose to remove the globe from the dashboard itself and have it as the physical control, 
+                            which can allow users to change the display, but not affect others in the process of doing so.
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+            <!-- Dashboard Element: Social Media -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Social Media </h4>
+                </div> 
+                <div class="col-md-6">
+                    <img src="assets/images/adidas/tabs.png" class="img-fluid" alt="the mid-fi mockup of checkout interface tablet version"> 
+                </div> 
+                <div class="col-md-4">
+                    <h6> Comments: </h6>
+                    <ul>
+                        <li>
+                            Originally, we designed our dashboard similar to a touchscreen tablet: we added the toggle feature for the social 
+                            media widget, allowing it to change between Instagram and TikTok as well as a drop menu that allowed the users to 
+                            choose tags and filter the displayed results. 
+                        </li>
+                    </ul>
+                    <h6> Changes: </h6>
+                    <ul>
+                        <li>
+                            After realizing this design invites too much interaction for an ambient display, we changed the social media widget 
+                            to have auto-motion and re-designed the designer favorites into digital bulletin board for different designers to pin 
+                            their favorite pieces, outfits, and inspirations.
+                        </li>
+                    </ul>
+                </div>   
+            </div>
+            <!-- Dashboard Element: Shoe Details -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Shoe Details </h4>
+                </div>
+                <div class="col-md-6">
+                    <img src="assets/images/adidas/shoe-detail.png" class="img-fluid" alt="the updated prototype we made of our web app"> 
+                </div>
+                <div class="col-md-4">
+                    <h6> Comments: </h6>
+                    <ul>
+                        <li>
+                            The shoes statistic on the left will change every couple of seconds, with the next shoe entering 
+                            the screen from the right. 
+                        </li>
+                    </ul>
+                    <h6> Changes: </h6>
+                    <ul>
+                        <li>
+                            We realized that this does not have good feed-forward for which shoes will appear to the viewers, 
+                            so we added a list naming the shoes that were ranked.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- Dashboard Element: loading screen -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Loading Screen </h4>
+                </div> 
+                <div class="col-md-5">
+                    <img src="assets/images/adidas/loading-nyc.png" class="img-fluid" alt="the updated prototype we made of our web app"> 
+                    <h6> Comments: </h6>
+                    <ul>
+                        <li>
+                            We initially planned for a loading page to simulate a sense of travel when the user changes the location.
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-5">
+                    <img src="assets/images/adidas/loading-japan.png" class="img-fluid" alt="the updated prototype we made of our web app"> 
+                    <h6> Changes: </h6>
+                    <ul>
+                        <li>
+                            We realized this feature may add more confusion than spark interest in the users. Additionally, it can also 
+                            cause unnecessary waiting time for screens to change.
+                        </li>
+                    </ul>
+                </div>    
+            </div>
+            <!-- Final Prototype -->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <h4> Final Design </h4>
+                </div> 
+                <div class="col-md-8">
+                    <img src="assets/images/adidas/TKY2NYC.gif" class="img-fluid" alt="the previous 'paper' prototype we made of our web app"> 
+                </div> 
+                <div class="col-md-2">
+                    <!-- Spacer -->
+                </div>   
+            </div>
+            <!-- Final Prototype (3 rows)-->
+            <div class="row project-process">
+                <div class="col-md-2">
+                    <!-- Spacer -->
+                </div> 
+                <div class="col-md-8">
+                    <p> 
+                        Our final design has a strong global element to it, where the control changes between locations and our widgets change 
+                        accordingly: users can get a peak into each region’s fashion favorites
+                    </p>
+                    <p> We also incorporated five key widgets within the dashboard:</p>
+                    <ul>
+                        <li>
+                            Current trends: displays statistical information on how popular the certain trends are
+                            based on how often they are mentioned in media
+                        </li>
+                        <li>
+                            Social media: shows Instagram and TikTok posts according to the top trends and changes 
+                            when there is an update in current trends
+                        </li>
+                        <li>
+                            Designer favorites: displays designers’ digital bulletin boards, which changes on a weekly
+                            basis and changes along with location
+                        </li>
+                        <li>
+                            Influential campaigns: shows information about past and current collaborations with celebrities 
+                            and influencers
+                        </li>
+                        <li>
+                            Potential ambassadors: shows celebrities and influencers that would be fit for future collaborations
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <!-- Spacer -->
+                </div>    
+            </div>
+             <!-- Project Nav -->
+             <div class="row project-intro">
+                <div class="col-md-4">
+                    <p> <a href="project-costco.html" class="next-project"> Prev: Costco Responsive Web App </a> </p>
+                </div>
+                <div class="col-md-4">
+                    <!-- spacer -->
+                </div>
+                <div class="col-md-4">
+                    <!-- spacer -->
+                </div>
+            </div>
+        </div>
+        <!-- Footer w/ contact info + music  -->
+        <footer>
+            <div class="footer-contact">
+                <div class="container">
+                <!-- Structure: 3 columns with music control, contact, and music credits (respectively) -->
+                    <div class="row">
+                        <!-- Background music with controls -->
+                        <div class="col-md-4">
+                            <audio controls autoplay loop id="page-audio">
+                                <source src="assets/music/Fabricator-Xtherapy.mp3" type="audio/mp3">
+                            Your browser does not support the audio element.
+                            </audio>
+                        </div>
+                        <!-- Contact Information: Email, LinkedIn (respectively)-->
+                        <div class="col-md-4">
+                            <a href="mailto:aprilw@andrew.cmu.edu" class="fa fa-envelope"></a>
+                            <a href="https://www.linkedin.com/in/wu-april/" class="fa fa-linkedin"></a>
+                        </div>
+                        <!-- Credit -->
+                        <div class="col-md-4" id="song">
+                            <p> BGM: Fabricator - Xtherapy </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
