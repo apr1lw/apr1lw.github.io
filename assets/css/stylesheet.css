@@ -1,4 +1,4 @@
-/* Animation - Make content transition onto page from bottom to top*/
+b/* Animation - Make content transition onto page from bottom to top*/
 @keyframes bottom-top {
     from{ bottom:-50px; opacity:0; } 
     to{ bottom:0 ; opacity:1; }
@@ -240,7 +240,7 @@ footer{
 #bio-pic{
     margin-left: auto;
     margin-right: auto;
-    height: 250px;
+    height: 400px;
 }
 
 /* About Page: Styling the text next to and below the bio image */
